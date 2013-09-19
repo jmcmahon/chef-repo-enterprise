@@ -1,0 +1,25 @@
+{
+  "sources": {
+    "my_cookbook": {
+      "path": "."
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "apache2": {
+      "locked_version": "1.7.0"
+    },
+    "chef-client": {
+      "locked_version": "3.0.6"
+    },
+    "cron": {
+      "locked_version": "1.2.6"
+    },
+    "apt": {
+      "locked_version": "2.1.1"
+    },
+    "ntp": {
+      "locked_version": "1.4.0"
+    }
+  }
+}

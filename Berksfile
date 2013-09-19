@@ -12,6 +12,8 @@
 # other valid keys, see the Berkshelf documentation
 site :opscode
 
+metadata
+
 # Example usage
 # -------------
 
@@ -32,3 +34,4 @@ site :opscode
 # Uncomment to point at a local cookbook on the filesystem, relative to the
 # current working directory.
 # cookbook "myserver", :path => "/code/myserver-cookbook"
+cookbook "my_cookbook", :path => "/cookbooks/my_cookbook"
