@@ -83,4 +83,6 @@ Vagrant.configure("2") do |config|
      chef.node_name = "server"
      chef.provisioning_path = "/etc/chef"
    end
+
+   config.berkshelf.enabled = true
 end
